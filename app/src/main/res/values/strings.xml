@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Bass Tools</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_key_notes_basic">Key Notes (Basic)</string>
+    <string name="title_activity_key_notes_advanced_pick_degree">Key Notes (Advanced)</string>
+</resources>

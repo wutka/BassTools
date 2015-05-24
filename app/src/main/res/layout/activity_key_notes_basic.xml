@@ -1,0 +1,291 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.wutka.basstools.KeyNotesBasic">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="32dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textSize="@dimen/abc_text_size_display_3_material"
+        android:editable="false"
+        android:textAlignment="center"
+        android:layout_marginBottom="40dp"
+        android:gravity="center_horizontal"
+        android:longClickable="true" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:onClick="handleNoteClick"
+            android:id="@+id/radioGroupA">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ab"
+                android:id="@+id/radioButtonAb"
+                android:textSize="@dimen/abc_text_size_display_1_material"
+                android:layout_weight="1" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A"
+                android:textSize="@dimen/abc_text_size_display_1_material"
+                android:id="@+id/radioButtonA"
+                android:layout_weight="1" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A#"
+                android:textSize="@dimen/abc_text_size_display_1_material"
+                android:id="@+id/radioButtonASharp"
+                android:layout_weight="1" />
+        </RadioGroup>
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:onClick="handleNoteClick"
+            android:id="@+id/radioGroupB">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bb"
+                android:textSize="@dimen/abc_text_size_display_1_material"
+                android:id="@+id/radioButtonBb"
+                android:layout_weight="1" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="B"
+                android:textSize="@dimen/abc_text_size_display_1_material"
+                android:id="@+id/radioButtonB"
+                android:layout_weight="1" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="B#"
+                android:textSize="@dimen/abc_text_size_display_1_material"
+                android:id="@+id/radioButtonBSharp"
+                android:layout_weight="1" />
+        </RadioGroup>
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:onClick="handleNoteClick"
+            android:id="@+id/radioGroupC">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cb"
+                android:textSize="@dimen/abc_text_size_display_1_material"
+                android:id="@+id/radioButtonCb"
+                android:layout_weight="1" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="C"
+                android:textSize="@dimen/abc_text_size_display_1_material"
+                android:id="@+id/radioButtonC"
+                android:layout_weight="1" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="C#"
+                android:textSize="@dimen/abc_text_size_display_1_material"
+                android:id="@+id/radioButtonCSharp"
+                android:layout_weight="1" />
+        </RadioGroup>
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:onClick="handleNoteClick"
+            android:id="@+id/radioGroupD">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Db"
+                android:textSize="@dimen/abc_text_size_display_1_material"
+                android:id="@+id/radioButtonDb"
+                android:layout_weight="1" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="D"
+                android:textSize="@dimen/abc_text_size_display_1_material"
+                android:id="@+id/radioButtonD"
+                android:layout_weight="1" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="D#"
+                android:textSize="@dimen/abc_text_size_display_1_material"
+                android:id="@+id/radioButtonDSharp"
+                android:layout_weight="1" />
+
+        </RadioGroup>
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:onClick="handleNoteClick"
+            android:id="@+id/radioGroupE">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Eb"
+                android:textSize="@dimen/abc_text_size_display_1_material"
+                android:id="@+id/radioButtonEb"
+                android:layout_weight="1" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="E"
+                android:textSize="@dimen/abc_text_size_display_1_material"
+                android:id="@+id/radioButtonE"
+                android:layout_weight="1" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="E#"
+                android:textSize="@dimen/abc_text_size_display_1_material"
+                android:id="@+id/radioButtonESharp"
+                android:layout_weight="1" />
+        </RadioGroup>
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:onClick="handleNoteClick"
+            android:id="@+id/radioGroupF">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fb"
+                android:textSize="@dimen/abc_text_size_display_1_material"
+                android:id="@+id/radioButtonFb"
+                android:layout_weight="1" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="F"
+                android:textSize="@dimen/abc_text_size_display_1_material"
+                android:id="@+id/radioButtonF"
+                android:layout_weight="1" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="F#"
+                android:textSize="@dimen/abc_text_size_display_1_material"
+                android:id="@+id/radioButtonFSharp"
+                android:layout_weight="1" />
+        </RadioGroup>
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:onClick="handleNoteClick"
+            android:id="@+id/radioGroupG">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Gb"
+                android:textSize="@dimen/abc_text_size_display_1_material"
+                android:id="@+id/radioButtonGb"
+                android:layout_weight="1" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="G"
+                android:textSize="@dimen/abc_text_size_display_1_material"
+                android:id="@+id/radioButtonG"
+                android:layout_weight="1" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="G#"
+                android:textSize="@dimen/abc_text_size_display_1_material"
+                android:id="@+id/radioButtonGSharp"
+                android:layout_weight="1" />
+        </RadioGroup>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.44">
+
+            <ToggleButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/majorButton"
+                android:layout_gravity="right"
+                android:checked="true"
+                android:textOn="Major (On)"
+                android:textOff="Major(Off)"
+                android:layout_weight="1"
+                android:onClick="handleKeyChange" />
+
+            <ToggleButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Minor"
+                android:id="@+id/minorButton"
+                android:textOff="Minor (Off)"
+                android:textOn="Minor (On)"
+                android:layout_weight="1"
+                android:nestedScrollingEnabled="true"
+                android:onClick="handleKeyChange" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

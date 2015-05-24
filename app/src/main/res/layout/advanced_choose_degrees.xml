@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="100dp">
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <ToggleButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1"
+                android:id="@+id/chooseDegreeButton1"
+                android:textSize="@dimen/abc_text_size_display_2_material"
+                android:textOff="1"
+                android:textOn="1" />
+
+            <ToggleButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2"
+                android:id="@+id/chooseDegreeButton2"
+                android:textSize="@dimen/abc_text_size_display_2_material"
+                android:textOff="2"
+                android:textOn="2" />
+
+            <ToggleButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3"
+                android:id="@+id/chooseDegreeButton3"
+                android:textSize="@dimen/abc_text_size_display_2_material"
+                android:textOff="3"
+                android:textOn="3" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <ToggleButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4"
+                android:id="@+id/chooseDegreeButton4"
+                android:textSize="@dimen/abc_text_size_display_2_material"
+                android:textOn="4"
+                android:textOff="4" />
+
+            <ToggleButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5"
+                android:id="@+id/chooseDegreeButton5"
+                android:textSize="@dimen/abc_text_size_display_2_material"
+                android:textOff="5"
+                android:textOn="5" />
+
+            <ToggleButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="6"
+                android:id="@+id/chooseDegreeButton6"
+                android:textSize="@dimen/abc_text_size_display_2_material"
+                android:textOn="6"
+                android:textOff="6" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal">
+
+            <ToggleButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="7"
+                android:id="@+id/chooseDegreeButton7"
+                android:textOff="7"
+                android:textOn="7"
+                android:textSize="@dimen/abc_text_size_display_2_material"
+                />
+        </TableRow>
+    </TableLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OK"
+        android:id="@+id/chooseDegreeOkayButton"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="100dp"
+        android:onClick="handleChooseDegreesOkayClick" />
+
+</LinearLayout>

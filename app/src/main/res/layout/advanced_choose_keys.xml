@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal">
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal">
+
+            <ToggleButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ab"
+                android:id="@+id/chooseKeysAb"
+                android:textAllCaps="false"
+                android:textOff="Ab"
+                android:textOn="Ab" />
+
+            <ToggleButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A"
+                android:id="@+id/chooseKeysA"
+                android:textAllCaps="false"
+                android:textOff="A"
+                android:textOn="A" />
+
+            <ToggleButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bb"
+                android:id="@+id/chooseKeysBb"
+                android:textAllCaps="false"
+                android:textOff="Bb"
+                android:textOn="Bb" />
+
+            <ToggleButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="B"
+                android:id="@+id/chooseKeysB"
+                android:textAllCaps="false"
+                android:textOff="B"
+                android:textOn="B"
+                />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal">
+
+            <ToggleButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="C"
+                android:textAllCaps="false"
+                android:textOff="C"
+                android:textOn="C"
+                android:id="@+id/chooseKeysC" />
+
+            <ToggleButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="C#"
+                android:textAllCaps="false"
+                android:textOff="C#"
+                android:textOn="C#"
+                android:id="@+id/chooseKeysCSharp" />
+
+            <ToggleButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Db"
+                android:textAllCaps="false"
+                android:textOff="Db"
+                android:textOn="Db"
+                android:id="@+id/chooseKeysDb" />
+
+            <ToggleButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="D"
+                android:textAllCaps="false"
+                android:textOff="D"
+                android:textOn="D"
+                android:id="@+id/chooseKeysD" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal">
+
+            <ToggleButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Eb"
+                android:textAllCaps="false"
+                android:textOff="Eb"
+                android:textOn="Eb"
+                android:id="@+id/chooseKeysEb" />
+
+            <ToggleButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="E"
+                android:textAllCaps="false"
+                android:textOff="E"
+                android:textOn="E"
+                android:id="@+id/chooseKeysE" />
+
+            <ToggleButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="F"
+                android:textAllCaps="false"
+                android:textOff="F"
+                android:textOn="F"
+                android:id="@+id/chooseKeysF" />
+
+            <ToggleButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="F#"
+                android:textAllCaps="false"
+                android:textOff="F#"
+                android:textOn="F#"
+                android:id="@+id/chooseKeysFSharp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal">
+
+            <ToggleButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Gb"
+                android:textAllCaps="false"
+                android:textOff="Gb"
+                android:textOn="Gb"
+                android:id="@+id/chooseKeysGb" />
+
+            <ToggleButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="G"
+                android:textAllCaps="false"
+                android:textOff="G"
+                android:textOn="G"
+                android:id="@+id/chooseKeysG" />
+        </TableRow>
+
+    </TableLayout>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/linearLayout"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal">
+
+            <ToggleButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Am"
+                android:textAllCaps="false"
+                android:textOff="Am"
+                android:textOn="Am"
+                android:id="@+id/chooseKeysAm" />
+
+            <ToggleButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bbm"
+                android:textAllCaps="false"
+                android:textOff="Bbm"
+                android:textOn="Bbm"
+                android:id="@+id/chooseKeysBbm" />
+
+            <ToggleButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bm"
+                android:textAllCaps="false"
+                android:textOff="Bm"
+                android:textOn="Bm"
+                android:id="@+id/chooseKeysBm" />
+
+            <ToggleButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cm"
+                android:textAllCaps="false"
+                android:textOff="Cm"
+                android:textOn="Cm"
+                android:id="@+id/chooseKeysCm" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal">
+
+            <ToggleButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="C#m"
+                android:textAllCaps="false"
+                android:textOff="C#m"
+                android:textOn="C#m"
+                android:id="@+id/chooseKeysCSharpm" />
+
+            <ToggleButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dm"
+                android:textAllCaps="false"
+                android:textOff="Dm"
+                android:textOn="Dm"
+                android:id="@+id/chooseKeysDm" />
+
+            <ToggleButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="D#m"
+                android:textAllCaps="false"
+                android:textOff="D#m"
+                android:textOn="D#m"
+                android:id="@+id/chooseKeysDSharpm" />
+
+            <ToggleButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ebm"
+                android:textAllCaps="false"
+                android:textOff="Ebm"
+                android:textOn="Ebm"
+                android:id="@+id/chooseKeysEbm" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal">
+
+            <ToggleButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Em"
+                android:textAllCaps="false"
+                android:textOff="Em"
+                android:textOn="Em"
+                android:id="@+id/chooseKeysEm" />
+
+            <ToggleButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fm"
+                android:textAllCaps="false"
+                android:textOff="Fm"
+                android:textOn="Fm"
+                android:id="@+id/chooseKeysFm" />
+
+            <ToggleButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="F#m"
+                android:textAllCaps="false"
+                android:textOff="F#m"
+                android:textOn="F#m"
+                android:id="@+id/chooseKeysFSharpm" />
+
+            <ToggleButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Gm"
+                android:textAllCaps="false"
+                android:textOff="Gm"
+                android:textOn="Gm"
+                android:id="@+id/chooseKeysGm" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal">
+
+            <ToggleButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="G#m"
+                android:textAllCaps="false"
+                android:textOff="G#m"
+                android:textOn="G#m"
+                android:id="@+id/chooseKeysGSharpm" />
+        </TableRow>
+    </TableLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/chooseKeysOKButton"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/linearLayout">
+
+        <ToggleButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Major"
+            android:textAllCaps="false"
+            android:textOff="Major"
+            android:textOn="Major"
+            android:id="@+id/majorButton"
+            android:layout_weight="1"
+            android:onClick="handleChooseKeysMajorClick" />
+
+        <ToggleButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Minor"
+            android:textAllCaps="false"
+            android:textOff="Minor"
+            android:textOn="Minor"
+            android:id="@+id/minorButton"
+            android:layout_weight="1"
+            android:onClick="handleChooseKeysMinorClick" />
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OK"
+        android:textAllCaps="false"
+        android:id="@+id/chooseKeysOKButton"
+        android:layout_gravity="center_horizontal"
+        android:onClick="handleChooseKeysOkayClick"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

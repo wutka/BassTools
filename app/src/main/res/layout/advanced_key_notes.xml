@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/advancedNotesKeyTextView"
+        android:layout_weight="0.10"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:textSize="@dimen/abc_text_size_display_2_material"
+        android:textAlignment="center"
+        android:gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/advancedNotesTaskTextView"
+        android:layout_weight="0.10"
+        android:textSize="@dimen/abc_text_size_display_2_material"
+        android:layout_below="@+id/advancedNotesKeyTextView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textAlignment="center"
+        android:gravity="center_horizontal" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.10"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_centerInParent="true">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ab"
+                android:textAllCaps="false"
+                android:id="@+id/advancedNoteAb"
+                android:onClick="handleNoteButtonClick" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A"
+                android:textAllCaps="false"
+                android:onClick="handleNoteButtonClick"
+                android:id="@+id/advancedNoteA" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A#"
+                android:textAllCaps="false"
+                android:onClick="handleNoteButtonClick"
+                android:id="@+id/advancedNoteASharp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bb"
+                android:textAllCaps="false"
+                android:onClick="handleNoteButtonClick"
+                android:id="@+id/advancedNoteBb" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="B"
+                android:textAllCaps="false"
+                android:onClick="handleNoteButtonClick"
+                android:id="@+id/advancedNoteB" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="B#"
+                android:textAllCaps="false"
+                android:onClick="handleNoteButtonClick"
+                android:id="@+id/advancedNoteBSharp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cb"
+                android:textAllCaps="false"
+                android:onClick="handleNoteButtonClick"
+                android:id="@+id/advancedNoteCb" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="C"
+                android:onClick="handleNoteButtonClick"
+                android:id="@+id/advancedNoteC" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="C#"
+                android:textAllCaps="false"
+                android:onClick="handleNoteButtonClick"
+                android:id="@+id/advancedNoteCSharp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Db"
+                android:textAllCaps="false"
+                android:onClick="handleNoteButtonClick"
+                android:id="@+id/advancedNoteDb" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="D"
+                android:textAllCaps="false"
+                android:onClick="handleNoteButtonClick"
+                android:id="@+id/advancedNoteD" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAllCaps="false"
+                android:text="D#"
+                android:onClick="handleNoteButtonClick"
+                android:id="@+id/advancedNoteDSharp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Eb"
+                android:textAllCaps="false"
+                android:onClick="handleNoteButtonClick"
+                android:id="@+id/advancedNoteEb" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="E"
+                android:textAllCaps="false"
+                android:onClick="handleNoteButtonClick"
+                android:id="@+id/advancedNoteE" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="E#"
+                android:textAllCaps="false"
+                android:onClick="handleNoteButtonClick"
+                android:id="@+id/advancedNoteESharp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fb"
+                android:textAllCaps="false"
+                android:onClick="handleNoteButtonClick"
+                android:id="@+id/advancedNoteFb" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="F"
+                android:textAllCaps="false"
+                android:onClick="handleNoteButtonClick"
+                android:id="@+id/advancedNoteF" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="F#"
+                android:textAllCaps="false"
+                android:onClick="handleNoteButtonClick"
+                android:id="@+id/advancedNoteFSharp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Gb"
+                android:textAllCaps="false"
+                android:onClick="handleNoteButtonClick"
+                android:id="@+id/advancedNoteGb" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="G"
+                android:textAllCaps="false"
+                android:onClick="handleNoteButtonClick"
+                android:id="@+id/advancedNoteG" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="G#"
+                android:textAllCaps="false"
+                android:onClick="handleNoteButtonClick"
+                android:id="@+id/advancedNoteGSharp" />
+        </TableRow>
+    </TableLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Keys"
+        android:id="@+id/button22"
+        android:layout_weight="0.10"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:onClick="handleChooseKeysClick" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Degrees"
+        android:id="@+id/button23"
+        android:layout_gravity="right"
+        android:layout_weight="0.10"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:onClick="handleChooseDegreesClick" />
+
+</RelativeLayout>
